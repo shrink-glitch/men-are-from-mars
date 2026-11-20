@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mars &amp; Venus, decoded - a reader's guide</title>
+<meta name="description" content="The key ideas of John Gray's Men Are from Mars, Women Are from Venus, with interactive tools to try them and a look at what the evidence says.">
+<link rel="preload" href="fonts/gloock-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='12' cy='16' r='9' fill='%23A33A1C'/%3E%3Ccircle cx='20' cy='16' r='9' fill='%23D9B84A' fill-opacity='.85'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#premise">Skip to content</a>
+
+<nav class="topnav" aria-label="Sections">
+  <a class="brand" href="#top" aria-label="Back to top"><span class="dot mars"></span><span class="dot venus"></span></a>
+  <ul>
+    <li><a href="#premise">Premise</a></li>
+    <li><a href="#planets">Two planets</a></li>
+    <li><a href="#ideas">Big ideas</a></li>
+    <li><a href="#tools">Try it</a></li>
+    <li><a href="#seasons">Seasons</a></li>
+    <li><a href="#quiz">Quiz</a></li>
+    <li><a href="#earth">Back on Earth</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="top">
+  <div class="orbit" aria-hidden="true">
+    <div class="planet p-mars"></div>
+    <div class="planet p-venus"></div>
+  </div>
+  <div class="hero-text">
+    <p class="kicker">A reader's guide to John Gray's 1992 bestseller</p>
+    <h1>Men are from Mars, women are from&nbsp;Venus</h1>
+    <p class="lede">The book's whole argument fits in one sentence: we love our partners the way we would want to be loved, and that is the problem. This page lays out the key ideas, lets you try the techniques, and ends with what the research actually says about the planets.</p>
+    <p class="hero-meta">About 15 minutes to read. All summaries are paraphrased.</p>
+  </div>
+</header>
+
+<main>
+
+<!-- PREMISE -->
+<section id="premise" class="block">
+  <div class="prose">
+    <h2>The premise</h2>
+    <p>Gray opens with a fable. Martians spot Venusians through a telescope, fall in love, and fly over. The two peoples live happily for years because they know they are different and plan around it. Then they move to Earth, wake up with selective amnesia, and forget they were ever from different worlds. Every fight since, the story goes, comes from that forgetting.</p>
+    <p>Strip the fable away and the claim is practical. Each partner expects the other to think, feel and react the way they do. When the other doesn't, it gets read as not caring. Gray's fix is not to change your partner but to stop assuming they run on your operating system, and to learn what theirs needs.</p>
+    <aside class="note">
+      <p><strong>Worth knowing before you read on.</strong> Gray says up front that these are generalisations, that some couples will recognise themselves in reverse (he calls it role reversal), and that he is not explaining <em>why</em> the differences exist. Read "Mars" and "Venus" as two coping styles that any person can lean towards. The last section of this page explains why that reading is closer to the evidence anyway.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- TWO PLANETS -->
+<section id="planets" class="block">
+  <div class="prose">
+    <h2>Two planets, side by side</h2>
+    <p>Pick a theme to see how the book contrasts the two styles.</p>
+  </div>
+  <div class="compare" data-component="compare">
+    <div class="tabs" role="tablist" aria-label="Themes"></div>
+    <div class="compare-panel" role="tabpanel" tabindex="0" aria-live="polite">
+      <div class="side mars-side">
+        <h3>Mars</h3>
+        <p class="c-mars"></p>
+      </div>
+      <div class="side venus-side">
+        <h3>Venus</h3>
+        <p class="c-venus"></p>
+      </div>
+      <p class="c-clash"></p>
+    </div>
+  </div>
+</section>
+
+<!-- BIG IDEAS -->
+<section id="ideas" class="block">
+  <div class="prose">
+    <h2>The big ideas, chapter by chapter</h2>
+    <p>Open any idea for what Gray claims, why he thinks it goes wrong, and what he suggests trying.</p>
+  </div>
+  <ol class="ideas" data-component="ideas"></ol>
+</section>
+
+<!-- TOOLS -->
+<section id="tools" class="block">
+  <div class="prose">
+    <h2>Try it</h2>
+    <p>Five of the book's techniques, turned into things you can click. They work just as well with the genders swapped.</p>
+  </div>
+
+  <div class="toolnav" role="tablist" aria-label="Tools">
+    <button role="tab" aria-selected="true" aria-controls="tool-translate" id="t-translate">Phrase translator</button>
+    <button role="tab" aria-selected="false" aria-controls="tool-score" id="t-score" tabindex="-1">Points counter</button>
+    <button role="tab" aria-selected="false" aria-controls="tool-ask" id="t-ask" tabindex="-1">Asking coach</button>
+    <button role="tab" aria-selected="false" aria-controls="tool-argue" id="t-argue" tabindex="-1">Anatomy of a fight</button>
+    <button role="tab" aria-selected="false" aria-controls="tool-letter" id="t-letter" tabindex="-1">Love Letter builder</button>
+  </div>
+
+  <!-- Translator -->
+  <div class="tool" id="tool-translate" role="tabpanel" aria-labelledby="t-translate">
+    <div class="tool-head">
+      <h3>The phrase translator</h3>
+      <p>Gray's claim: the words are the same on both planets, the meanings aren't. Venusian complaints use big, poetic generalisations that Martians take literally. Martian one-liners are a request for space that Venusians hear as a brush-off.</p>
+    </div>
+    <div class="translator" data-component="translator">
+      <div class="dir" role="radiogroup" aria-label="Direction">
+        <button role="radio" aria-checked="true" data-dir="venus">She says it</button>
+        <button role="radio" aria-checked="false" data-dir="mars">He says it</button>
+      </div>
+      <div class="phrases"></div>
+      <div class="readout" aria-live="polite">
+        <div class="r-row"><span class="r-label">What gets heard</span><p class="r-heard"></p></div>
+        <div class="r-row"><span class="r-label">What it usually means</span><p class="r-means"></p></div>
+        <div class="r-row good"><span class="r-label">What helps</span><p class="r-helps"></p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Score -->
+  <div class="tool" id="tool-score" role="tabpanel" aria-labelledby="t-score" hidden>
+    <div class="tool-head">
+      <h3>The points counter</h3>
+      <p>Gray says men keep score by size (a big gesture is worth thirty points) while women give every act of love one point, big or small. Add gestures and watch the two scoreboards drift apart.</p>
+    </div>
+    <div class="score" data-component="score">
+      <div class="gifts"></div>
+      <div class="boards">
+        <div class="board">
+          <span class="b-label">How he thinks he's doing</span>
+          <span class="b-num" id="score-mars">0</span>
+          <div class="bar"><span class="fill mars-fill" id="bar-mars"></span></div>
+        </div>
+        <div class="board">
+          <span class="b-label">How she experiences it</span>
+          <span class="b-num" id="score-venus">0</span>
+          <div class="bar"><span class="fill venus-fill" id="bar-venus"></span></div>
+        </div>
+      </div>
+      <p class="score-msg" aria-live="polite">Tap a gesture to begin.</p>
+      <button class="ghost" id="score-reset" type="button">Start again</button>
+    </div>
+  </div>
+
+  <!-- Asking -->
+  <div class="tool" id="tool-ask" role="tabpanel" aria-labelledby="t-ask" hidden>
+    <div class="tool-head">
+      <h3>The asking coach</h3>
+      <p>Gray's rules for a request a Martian will say yes to: be direct, be brief, don't stack up reasons, and say "would you" rather than "could you" (he argues "could" questions ability, "would" invites a choice). Pick the version you think works best.</p>
+    </div>
+    <div class="ask" data-component="ask">
+      <p class="ask-scene"></p>
+      <div class="ask-options"></div>
+      <p class="ask-feedback" aria-live="polite"></p>
+      <div class="ask-foot">
+        <span class="ask-count"></span>
+        <button class="ghost" id="ask-next" type="button">Next situation</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Argument -->
+  <div class="tool" id="tool-argue" role="tabpanel" aria-labelledby="t-argue" hidden>
+    <div class="tool-head">
+      <h3>Anatomy of a fight</h3>
+      <p>Gray's five-step loop for how a small upset becomes a row, using his own picnic example. Step through it, then see where it can be cut.</p>
+    </div>
+    <div class="argue" data-component="argue">
+      <ol class="steps"></ol>
+      <div class="argue-ctrl">
+        <button class="ghost" id="argue-prev" type="button">Back</button>
+        <button class="solid" id="argue-next" type="button">Next step</button>
+      </div>
+      <div class="fourf">
+        <h4>The four ways people protect themselves (and why none works)</h4>
+        <dl>
+          <div><dt>Fight</dt><dd>Attack first, win by intimidation. Trust drains away.</dd></div>
+          <div><dt>Flight</dt><dd>Retreat into the cave and never come back to the topic. A cold war.</dd></div>
+          <div><dt>Fake</dt><dd>Smile and say everything is fine. Resentment builds underneath.</dd></div>
+          <div><dt>Fold</dt><dd>Take all the blame to keep the peace, and slowly lose yourself.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <!-- Letter -->
+  <div class="tool" id="tool-letter" role="tabpanel" aria-labelledby="t-letter" hidden>
+    <div class="tool-head">
+      <h3>The Love Letter builder</h3>
+      <p>Gray's main tool for difficult feelings. Write privately, in order: anger, sadness, fear, regret, love, then a P.S. saying what you would like to hear back. The order matters to him; stopping at anger only stokes it. You don't have to send it.</p>
+    </div>
+    <form class="letter" data-component="letter" autocomplete="off">
+      <label class="to">Dear <input type="text" name="to" placeholder="name" aria-label="Who the letter is to"></label>
+      <div class="lsections"></div>
+      <label class="ps"><span>P.S. The response I would like to hear from you</span>
+        <textarea name="ps" rows="2" placeholder="I love you, and I'm sorry I..."></textarea></label>
+      <label class="from">Love, <input type="text" name="from" placeholder="your name" aria-label="Your name"></label>
+      <div class="letter-ctrl">
+        <button class="solid" type="button" id="letter-build">Put the letter together</button>
+        <button class="ghost" type="button" id="letter-clear">Clear</button>
+      </div>
+      <div class="letter-out" hidden>
+        <pre id="letter-text" tabindex="0"></pre>
+        <button class="ghost" type="button" id="letter-copy">Copy letter</button>
+        <span class="copy-msg" aria-live="polite"></span>
+      </div>
+      <p class="privacy">Nothing you type leaves this page or gets saved.</p>
+    </form>
+  </div>
+</section>
+
+<!-- SEASONS -->
+<section id="seasons" class="block">
+  <div class="prose">
+    <h2>The four seasons of love</h2>
+    <p>Gray closes with a calendar. Bad patches are not proof the love has died; they are a season.</p>
+  </div>
+  <div class="seasons" data-component="seasons">
+    <div class="wheel" role="tablist" aria-label="Seasons"></div>
+    <div class="season-panel" role="tabpanel" tabindex="0" aria-live="polite">
+      <h3 class="s-name"></h3>
+      <p class="s-body"></p>
+      <p class="s-task"></p>
+    </div>
+  </div>
+  <div class="prose">
+    <aside class="note">
+      <p><strong>Two related ideas from the last chapter.</strong> The <em>90/10 principle</em>: when an upset feels out of proportion, Gray says most of the charge comes from old, unhealed hurts and only a fraction from today, so telling a partner they are overreacting is like prodding a bruise. And the <em>delayed reaction</em>: when you finally get what you wanted, old resentment can surface instead of gratitude.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz" class="block">
+  <div class="prose">
+    <h2>What would Gray say?</h2>
+    <p>Six everyday situations. Choose the response the book recommends.</p>
+  </div>
+  <div class="quiz" data-component="quiz">
+    <div class="q-progress" aria-hidden="true"><span></span></div>
+    <p class="q-count"></p>
+    <h3 class="q-text"></h3>
+    <div class="q-options"></div>
+    <p class="q-explain" aria-live="polite"></p>
+    <button class="solid" id="q-next" type="button" hidden>Next question</button>
+    <div class="q-done" hidden>
+      <p class="q-score"></p>
+      <button class="ghost" id="q-restart" type="button">Try again</button>
+    </div>
+  </div>
+</section>
+
+<!-- EARTH -->
+<section id="earth" class="block earth">
+  <div class="prose">
+    <h2>Back on Earth: what the evidence says</h2>
+    <p>The book is a set of observations from Gray's seminars, not research. It became one of the best-selling self-help books ever written, and its core metaphor, that men and women are categorically different, has since been tested properly. It did not hold up well.</p>
+  </div>
+
+  <div class="overlap" data-component="overlap">
+    <div class="ov-head">
+      <h3>How different is "different"?</h3>
+      <p>Psychologists measure a gap between groups with an effect size, <i>d</i>. Drag the slider to see what each size looks like as two overlapping populations.</p>
+    </div>
+    <svg viewBox="0 0 640 240" role="img" aria-labelledby="ov-title ov-desc" class="ov-chart">
+      <title id="ov-title">Two overlapping distributions</title>
+      <desc id="ov-desc">Two bell curves whose separation changes with the slider.</desc>
+      <line x1="20" y1="210" x2="620" y2="210" class="axis"/>
+      <path id="curve-a" class="curve-a"/>
+      <path id="curve-b" class="curve-b"/>
+      <path id="curve-ov" class="curve-ov"/>
+    </svg>
+    <p class="ov-legend"><span><i class="la"></i>Group A</span><span><i class="lb"></i>Group B</span><span><i class="lo"></i>Where they overlap</span></p>
+    <div class="ov-ctrl">
+      <label for="d-slider">Effect size <i>d</i> = <output id="d-out">0.25</output></label>
+      <input type="range" id="d-slider" min="0" max="2.5" step="0.05" value="0.25">
+      <div class="ov-ticks" aria-hidden="true"><span>0</span><span>0.5</span><span>1.0</span><span>1.5</span><span>2.0</span><span>2.5</span></div>
+    </div>
+    <div class="ov-stats" aria-live="polite">
+      <p><span id="ov-pct">90%</span> of the two groups overlap.</p>
+      <p>Hyde's label for this size: <strong id="ov-band">small</strong>.</p>
+      <p class="ov-band-note" id="ov-note"></p>
+    </div>
+  </div>
+
+  <div class="prose findings">
+    <h3>The main findings</h3>
+    <p>In 2005 Janet Shibley Hyde reviewed 46 meta-analyses of psychological sex differences. Her conclusion, the <em>gender similarities hypothesis</em>, is that men and women are alike on most psychological variables, with most differences close to zero or small. The marked exceptions were throwing distance, some aspects of sexuality, and physical aggression. She also found that differences shift with age and with the context they are measured in, and warned that inflated claims of difference can put couples off trying to resolve conflict.</p>
+    <p>In 2013 Bobbi Carothers and Harry Reis tested whether psychological gender behaves like two categories or like a continuum. Physical traits such as height and strength do sort into two groups. Psychological traits, including empathy, intimacy and mate preferences, did not: they varied along a continuum. Their point is subtle and worth keeping: average differences are real, but you cannot predict an individual's style from their sex.</p>
+    <p>On the messenger: Gray's PhD came from Columbia Pacific University, an unaccredited distance-learning school that a California court ordered closed around 2000.</p>
+
+    <div class="verdict">
+      <div class="v-col keep">
+        <h4>What still holds up</h4>
+        <ul>
+          <li><strong>Validate before you fix.</strong> Hearing someone out before offering solutions is sound advice for anyone, of any gender.</li>
+          <li><strong>Time-outs during a fight.</strong> Gray's "take a break, cool off, come back" maps onto Gottman's research on flooding, which recommends a break of at least 20 minutes and an agreed time to return.</li>
+          <li><strong>Ask directly.</strong> Expecting a partner to read your mind is a reliable route to resentment.</li>
+          <li><strong>Feelings before blame.</strong> "I don't like waiting when you're late" lands better than "How could you be so late?"</li>
+          <li><strong>Small, frequent acts of care</strong> matter more than occasional grand gestures.</li>
+        </ul>
+      </div>
+      <div class="v-col drop">
+        <h4>What to read sceptically</h4>
+        <ul>
+          <li><strong>The planets themselves.</strong> The evidence points to overlapping tendencies, not two species. Use the styles, drop the sexes.</li>
+          <li><strong>Unsourced numbers.</strong> The 90/10 split, the 21 to 35 day self-esteem cycle and "hear it 200 times" are asserted, not referenced.</li>
+          <li><strong>Health claims.</strong> The suggested link between unexpressed feelings and PMS, and the claim that most physical disease comes from emotional pain, are not supported.</li>
+          <li><strong>Uneven burdens.</strong> Much of the advice asks women to manage men's moods: don't advise, don't criticise, ask sweetly, wait out the grumbling.</li>
+          <li><strong>Not for unsafe relationships.</strong> Advice to "lie low" through a partner's anger and absorb his penalty points is harmful if there is intimidation or abuse. That needs professional help, not better phrasing.</li>
+          <li><strong>Narrow frame.</strong> It assumes a heterosexual couple with 1990s American gender roles.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="prose">
+    <p>An independent study guide. Not affiliated with or endorsed by John Gray or his publishers. All summaries are paraphrased; please read the original book for the author's own words.</p>
+    <h4>Sources</h4>
+    <ul class="sources">
+      <li>Gray, J. (1992). <i>Men Are from Mars, Women Are from Venus.</i> HarperCollins.</li>
+      <li>Hyde, J. S. (2005). The gender similarities hypothesis. <i>American Psychologist, 60</i>(6), 581-592. <a href="https://pubmed.ncbi.nlm.nih.gov/16173891/">PubMed</a></li>
+      <li>Carothers, B. J., &amp; Reis, H. T. (2013). Men and women are from Earth: Examining the latent structure of gender. <i>Journal of Personality and Social Psychology, 104</i>(2), 385-407. <a href="https://pubmed.ncbi.nlm.nih.gov/23088230/">PubMed</a></li>
+      <li>The Gottman Institute on flooding and taking breaks. <a href="https://www.gottman.com/blog/manage-conflict-part-4">gottman.com</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
